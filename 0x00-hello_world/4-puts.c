@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-/*
-  main - Entry Point of code
-  Return: 0 if affirmative
+/**
+ * main - Entry Point of code
+ * Return: 0 if affirmative
  */
 
 int main(void)

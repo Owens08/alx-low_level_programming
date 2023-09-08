@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-/*
-  main - prints size of various types and is the entry point
-  Return: 0 if affirmative
+/**
+ *main - prints size of various types and is the entry point
+ *Return: 0 if affirmative
  */
 
 int main(void)

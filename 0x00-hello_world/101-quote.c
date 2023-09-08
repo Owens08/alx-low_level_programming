@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
 
-/*
-  main - prints a line of text to standard error
-  Return: 1 (Affirmative)
+/**
+ *main - prints a line of text to standard error
+ *Return: 1 (Affirmative)
  */
 
 int main(void)
