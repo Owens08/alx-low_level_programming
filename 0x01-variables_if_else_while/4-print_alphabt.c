@@ -1,21 +1,23 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
- * main - Entry point and program to print alphabet letter in all classes
+ * main - print lower case alphas without q and e
  *
- * Return: Always 0 (Affirmative)
+ * Return: 0 always affirmative
  */
 
 int main(void)
 {
-	char low;
+	char c = 'a';
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-	for (low = 'A'; low <= 'Z'; low++)
-		putchar(low);
+	while (c <= 'z')
+	{
+		if (c != 'q' && c != 'e')
+		{
+			putchar(c);
+		}
+		c++;
+	}
 	putchar('\n');
 
 	return (0);
