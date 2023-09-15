@@ -7,7 +7,7 @@
  * Return: 0 if everything happened well. other int otherwise.
  */
 
-void positive_or_negative(int n)
+void positive_or_negative int n
 {
 
 	if (n < 0)
